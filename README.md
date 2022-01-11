@@ -22,7 +22,7 @@ A few notes about LLMNR:
 
 Turning off LLMNR for the the Organizational Unit will prevent our Windows machine from trusting location responses from potential attackers.
 
-[View Deliverable 1 Here](https://github.com/cdnet01/Windows_Sysadmin/blob/main/Deliverables/Deliverable%20for%20Task%201.png)
+[View Deliverable 1 Here](https://github.com/cdnet01/Windows_Hardening/blob/main/Deliverables/Deliverable%20for%20Task%201.png)
 
 ---
 
@@ -32,7 +32,7 @@ For security and compliance reasons, we to need implement an account lockout pol
 
 It will be important to keep in mind that an overly restrictive account lockout policy (such as locking an account for 10 hours after 2 failed attempts), can potentially keep an account locked forever if an attacker repeatedly attempts to access it in an automated way.
 
-[View Deliverable 2 Here](https://github.com/cdnet01/Windows_Sysadmin/blob/main/Deliverables/Deliverable%20for%20Task%202.png)
+[View Deliverable 2 Here](https://github.com/cdnet01/Windows_Hardening/blob/main/Deliverables/Deliverable%20for%20Task%202.png)
 
 
 ---
@@ -45,7 +45,7 @@ In this activity we are going to use a PowerShell practice that is recommended r
 
 Note that the in order to put these administrative policies into effect, we must run `gpupdate` on our Windows 10 machine. Now, when we launch a new PowerShell window and run a script, we see verbose PowerShell logs created in the Windows 10 machine directory for the user that ran the script: `C:\Users\<user>\Documents`.
 
-[View Deliverable 3 Here](https://github.com/cdnet01/Windows_Sysadmin/blob/main/Deliverables/Deliverable%20for%20Task%203.png)
+[View Deliverable 3 Here](https://github.com/cdnet01/Windows_Hardening/blob/main/Deliverables/Deliverable%20for%20Task%203.png)
 
 ---
 
@@ -57,7 +57,7 @@ In this activity we will be writing a powershell script to show us the ACL outpu
 
 Once we have our script, we can test it by moving to any directory (`cd C:\Windows`), and running `C:\Users\sysadmin\Documents\enum_acls.ps1` (enter the full path and file name). 
 
-[View Deliverable 4 Here](https://github.com/cdnet01/Windows_Sysadmin/blob/main/Deliverables/enum_acls.ps1)
+[View Deliverable 4 Here](https://github.com/cdnet01/Windows_Hardening/blob/main/Deliverables/enum_acls.ps1)
 
 ---
 
@@ -69,7 +69,7 @@ Essentially, we will run our script on the Windows 10 machine, then verify that 
 
 Our deliverable is the logfile. 
 
-[View Deliverable 5 Here](https://github.com/cdnet01/Windows_Sysadmin/blob/main/Deliverables/(COPY)PowerShell_transcript.DESKTOP-SITPOTH.+Mvt8_yD.20220107034942)
+[View Deliverable 5 Here](https://github.com/cdnet01/Windows_Hardening/blob/main/Deliverables/(COPY)PowerShell_transcript.DESKTOP-SITPOTH.%2BMvt8_yD.20220107034942)
 
 
 ---
