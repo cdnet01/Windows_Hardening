@@ -1,4 +1,4 @@
-## Week 7 Homework: A Day in the Life of a Windows Sysadmin
+## Windows Hardening - Active Directory
 
 ### Overview  
 
