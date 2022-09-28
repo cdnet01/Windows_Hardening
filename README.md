@@ -22,7 +22,7 @@ A few notes about LLMNR:
 
 Turning off LLMNR for the the Organizational Unit will prevent our Windows machine from trusting location responses from potential attackers.
 
-[Deliverable 1](Deliverables/"Deliverable for Task 1.png")
+![Deliverable 1](Deliverables/Deliverable%20for%20Task%201.png)
 
 ---
 
@@ -32,7 +32,7 @@ For security and compliance reasons, we to need implement an account lockout pol
 
 It will be important to keep in mind that an overly restrictive account lockout policy (such as locking an account for 10 hours after 2 failed attempts), can potentially keep an account locked forever if an attacker repeatedly attempts to access it in an automated way.
 
-[Deliverable 2](Deliverables/"Deliverable for Task 2.png")
+![Deliverable 2](Deliverables/Deliverable%20for%20Task%202.png)
 
 
 ---
@@ -45,7 +45,7 @@ In this activity we are going to use a PowerShell practice that is recommended r
 
 Note that the in order to put these administrative policies into effect, we must run `gpupdate` on our Windows 10 machine. Now, when we launch a new PowerShell window and run a script, we see verbose PowerShell logs created in the Windows 10 machine directory for the user that ran the script: `C:\Users\<user>\Documents`.
 
-[Deliverable 3](Deliverables/"Deliverable for Task 3.png")
+![Deliverable 3](Deliverables/Deliverable%20for%20Task%203.png)
 
 ---
 
